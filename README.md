@@ -1,6 +1,6 @@
-# What's Fresh?
+## README
 
-### Install
+#### Fresh Install
 
 1. `bundle install`
 2. `rake db:setup`
