@@ -6,4 +6,4 @@ What's fresh?
 
 1. `bundle install`
 2. `rake db:setup`
-3. `rails server`
+3. `foreman start`
