@@ -4,6 +4,6 @@ What's fresh?
 "Fresh" install
 ---------------
 
-1. `bundle install`
-2. `rake db:setup`
-3. `foreman start`
+1. `./bin/setup`
+2. `foreman start`
+3. Open `http://localhost:3000`
