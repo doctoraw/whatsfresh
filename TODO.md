@@ -1,10 +1,8 @@
-TODO
-====
+### TODO
 
-Version 1.0
------------
+#### Version 1.0
 
-Development:
+**Development:**
 
 - [x] Create basic model associations.
 - [ ] Setup testing environment.
@@ -19,26 +17,25 @@ Development:
 - [ ] Setup api and namespace it `/v1/`.
 - [ ] Deploy alpha to Heroku.
 
-Design:
+**Design:**
 
-- [ ] HTML for layout, `foods/index`, `foods/show`
-- [ ] CSS for layout, `foods/index`, `foods/show`
+- [ ] HTML for layout, `foods/index`, `foods/show`.
+- [ ] CSS for layout, `foods/index`, `foods/show`.
 - [ ] This site uses cookies thingy.
-- [ ] 404, 422 and 500 pages
-- [ ] Admin panel for adding new foods
-- [ ] Little graphic for food seasons
-- [ ] Illustrations of foods
+- [ ] 404, 422 and 500 pages.
+- [ ] Admin panel for adding new foods.
+- [ ] Little graphic for food seasons.
+- [ ] Illustrations of foods.
 
-Copywriting:
+**Copywriting:**
 
-- [ ] Descriptions for US foods
-- [ ] Links for US foods
+- [ ] Descriptions for US foods.
+- [ ] Links for US foods.
 
-Misc:
+**Other Stuff:**
 
 - [ ] Analytics.
 
-Version 2.0
------------
+#### Version 2.0
 
-- [ ] Internationalization
+- [ ] Internationalization.
