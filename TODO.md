@@ -34,9 +34,9 @@ Version 1.0
 - [ ] Descriptions for US foods.
 - [ ] Links for US foods.
 
-**Other Stuff:**
+**Miscellaneous:**
 
-- [ ] Analytics.
+- [ ] Setup some analytics.
 
 Version 2.0
 -----------
