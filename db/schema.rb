@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150701175933) do
+ActiveRecord::Schema.define(version: 20150705213627) do
 
   create_table "countries", force: :cascade do |t|
     t.string   "name"
@@ -28,12 +28,27 @@ ActiveRecord::Schema.define(version: 20150701175933) do
     t.datetime "updated_at",  null: false
   end
 
-  create_table "states", force: :cascade do |t|
-    t.string   "name"
-    t.string   "code"
+  create_table "seasons", force: :cascade do |t|
     t.integer  "country_id"
+    t.integer  "state_id"
+    t.integer  "food_id"
+    t.string   "month"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  add_index "seasons", ["country_id"], name: "index_seasons_on_country_id"
+  add_index "seasons", ["food_id"], name: "index_seasons_on_food_id"
+  add_index "seasons", ["state_id"], name: "index_seasons_on_state_id"
+
+  create_table "states", force: :cascade do |t|
+    t.integer  "country_id"
+    t.string   "name"
+    t.string   "code"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "states", ["country_id"], name: "index_states_on_country_id"
 
 end

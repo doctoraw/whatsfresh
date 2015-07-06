@@ -1,3 +1,4 @@
 class Food < ActiveRecord::Base
-  validate_uniqueness_of :name
+  has_many :seasons
+  has_many :states, through: :seasons
 end

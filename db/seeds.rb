@@ -1,5 +1,5 @@
 # This file seeds the database with the initial data required.
-# OPTIMIZE: Make this more generic, import States from JSON.
+# OPTIMIZE: Make this for any number of countries from a JSON file.
 
 countries = [
      ["United States", "US"]

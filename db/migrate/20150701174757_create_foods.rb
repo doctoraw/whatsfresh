@@ -4,7 +4,6 @@ class CreateFoods < ActiveRecord::Migration
       t.string :name
       t.text :description
       t.text :links
-
       t.timestamps null: false
     end
   end
