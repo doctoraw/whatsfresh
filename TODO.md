@@ -1,6 +1,8 @@
-### TODO
+TODO
+====
 
-#### Version 1.0
+Version 1.0
+-----------
 
 **Development:**
 
@@ -36,6 +38,7 @@
 
 - [ ] Analytics.
 
-#### Version 2.0
+Version 2.0
+-----------
 
 - [ ] Internationalization.
