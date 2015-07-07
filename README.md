@@ -7,3 +7,8 @@ What's fresh?
 1. `./bin/setup`
 2. `foreman start`
 3. Open `http://localhost:3000`
+
+Running tests
+-------------
+
+`rake`
