@@ -18,6 +18,7 @@ Version 1.0
 - [ ] Test routes and integration with Capybara.
 - [ ] Setup api and namespace it `/v1/`.
 - [ ] Deploy alpha to Heroku.
+- [ ] Add some sort of caching.
 
 **Design:**
 
