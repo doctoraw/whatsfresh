@@ -1,7 +1,9 @@
-require 'test_helper'
+require "test_helper"
 
-class StateTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+describe State do
+  let(:state) { State.new }
+
+  it "must be valid" do
+    value(state).must_be :valid?
+  end
 end

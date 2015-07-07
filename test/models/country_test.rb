@@ -1,7 +1,9 @@
-require 'test_helper'
+require "test_helper"
 
-class CountryTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+describe Country do
+  let(:country) { Country.new }
+
+  it "must be valid" do
+    value(country).must_be :valid?
+  end
 end

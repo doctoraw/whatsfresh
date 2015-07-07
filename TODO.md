@@ -7,7 +7,7 @@ Version 1.0
 **Development:**
 
 - [x] Create basic model associations.
-- [ ] Setup testing environment.
+- [x] Setup testing environment.
 - [ ] Model validations and test those too.
 - [ ] Seed data from CVS into database.
 - [ ] Basic HTML layout, views and routes.

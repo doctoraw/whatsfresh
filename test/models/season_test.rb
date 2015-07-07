@@ -1,7 +1,9 @@
-require 'test_helper'
+require "test_helper"
 
-class SeasonTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+describe Season do
+  let(:season) { Season.new }
+
+  it "must be valid" do
+    value(season).must_be :valid?
+  end
 end
