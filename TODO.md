@@ -9,7 +9,7 @@ Version 1.0
 - [x] Create basic model associations.
 - [x] Setup testing environment.
 - [ ] Model validations and test those too.
-- [ ] Seed data from CVS into database.
+- [ ] Script to seed data from CVS into database.
 - [ ] Basic HTML layout, views and routes.
 - [ ] Static pages controller for info pages.
 - [ ] Admin: basic HTTP authentication.
@@ -44,3 +44,4 @@ Version 2.0
 -----------
 
 - [ ] Internationalization.
+
