@@ -7,7 +7,7 @@ require "minitest/rails"
 require "minitest/rails/capybara"
 
 # Awesome colorful output
-require "minitest/pride"
+# require "minitest/pride"
 
 class ActiveSupport::TestCase
 end

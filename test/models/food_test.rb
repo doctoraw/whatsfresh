@@ -4,6 +4,6 @@ describe Food do
   let(:food) { Food.new }
 
   it "must be valid" do
-    value(food).must_be :valid?
+    value(food).must_be :invalid?
   end
 end
