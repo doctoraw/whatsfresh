@@ -1,0 +1,14 @@
+alabama:
+  name: 'Alabama'
+  code: 'AL'
+  country_id: 1
+  
+montana:
+  name: 'Montana'
+  code: 'MO'
+  country_id: 1
+  
+texas:
+  name: 'Texas'
+  code: 'TX'
+  country_id: 1

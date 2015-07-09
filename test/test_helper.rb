@@ -6,8 +6,6 @@ require "minitest/rails"
 # Add Capybara feature tests
 require "minitest/rails/capybara"
 
-# Awesome colorful output
-# require "minitest/pride"
-
 class ActiveSupport::TestCase
+  fixtures :all
 end

@@ -20,7 +20,7 @@ end
 group :test do
   gem 'minitest-rails'
   gem 'minitest-rails-capybara'
-  gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'guard-minitest'
+  gem 'terminal-notifier-guard'
 end
