@@ -22,5 +22,5 @@ group :test do
   gem 'minitest-rails-capybara'
   gem 'database_cleaner'
   gem 'guard-minitest'
-  gem 'terminal-notifier-guard'
+  # gem 'terminal-notifier-guard'
 end
