@@ -1,0 +1,29 @@
+jan_al_apple:
+  month:      'January'
+  country_id: 1 
+  state_id:   1
+  food_id:    1
+
+feb_al_apple:
+  month:      'February'
+  country_id: 1 
+  state_id:   1
+  food_id:    1
+
+feb_mo_carrot:
+  month:      'February'
+  country_id: 1 
+  state_id:   2
+  food_id:    2
+
+mar_mo_potato:
+  month:      'March'
+  country_id: 1 
+  state_id:   2
+  food_id:    3
+
+mar_tx_potato:
+  month:      'March'
+  country_id: 1 
+  state_id:   3
+  food_id:    3
