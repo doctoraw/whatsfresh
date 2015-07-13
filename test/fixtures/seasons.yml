@@ -4,23 +4,11 @@ jan_al_apple:
   state_id:   1
   food_id:    1
 
-feb_al_apple:
-  month:      2
-  country_id: 1 
-  state_id:   1
-  food_id:    1
-
 feb_mo_carrot:
   month:      2
   country_id: 1 
   state_id:   2
   food_id:    2
-
-mar_mo_potato:
-  month:      3
-  country_id: 1 
-  state_id:   2
-  food_id:    3
 
 mar_tx_potato:
   month:      3
