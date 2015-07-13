@@ -8,6 +8,7 @@ Version 1.0
 
 - [x] Create basic model associations.
 - [x] Setup testing environment.
+- [x] Script to seed countries from JSON file.
 - [ ] Model validations and test those too.
 - [ ] Script to seed data from CVS into database.
 - [ ] Basic HTML layout, views and routes.
