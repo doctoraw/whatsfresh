@@ -10,6 +10,7 @@ Version 1.0
 - [x] Setup testing environment.
 - [x] Script to seed countries from JSON file.
 - [ ] Model validations and test those too.
+- [ ] The count of states in Spain should not be 11.
 - [ ] Script to seed data from CVS into database.
 - [ ] Basic HTML layout, views and routes.
 - [ ] Static pages controller for info pages.
