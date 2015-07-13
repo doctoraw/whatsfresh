@@ -14,19 +14,14 @@ describe Country do
     Country.count.must_be :==, 1
   end
   
-  it "must have a code" do
-    Country.first.code.must_be :==, 'US'
-    Country.create(name: 'Null Island', code: nil)
-    Country.count.must_be :==, 1
-  end
-  
-  it "must have name and code" do
-    Country.create(name: nil, code: nil)
+  it "must have a unique name" do
+    Country.create(name: 'United States', code: 'NI')
     Country.count.must_be :==, 1
   end  
   
-  it "must have a unique name" do
-    Country.create(name: 'United States', code: 'NI')
+  it "must have a code" do
+    Country.first.code.must_be :==, 'US'
+    Country.create(name: 'Null Island', code: nil)
     Country.count.must_be :==, 1
   end
   
@@ -41,5 +36,10 @@ describe Country do
     Country.create(name: 'Null Island', code: 'NIL')
     Country.count.must_be :==, 2
   end
+  
+  it "must have name and code" do
+    Country.create(name: nil, code: nil)
+    Country.count.must_be :==, 1
+  end  
 
 end

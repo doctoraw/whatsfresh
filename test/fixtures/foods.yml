@@ -1,8 +1,14 @@
 apple:
-  name: 'Apple'
+  name:        'Apple'
+  description: 'The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit.'
+  links:       'https://en.wikipedia.org/wiki/Apple'
 
 carrot:
-  name: 'Carrot'
+  name:        'Carrot'
+  description: 'The carrot is a root vegetable, usually orange in colour, though purple, red, white, and yellow varieties exist.'
+  links:       'https://en.wikipedia.org/wiki/Carrot'
 
 potato:
-  name: 'Potato'
+  name:        'Potato'
+  description: 'The potato is a starchy, tuberous crop from the perennial nightshade Solanum tuberosum.'
+  links:       'https://en.wikipedia.org/wiki/Potato'
